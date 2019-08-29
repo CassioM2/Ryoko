@@ -1,0 +1,1562 @@
+2019-08-29 14:24:25.270  INFO 7800 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.2.1
+	Build:          799
+	Build time:     08.06.2019 21:22:17 CEST
+	Branch          master
+	Commit:         18ee677
+	Commit time:    08.06.2019 21:19:57 CEST
+	JVM:            10.0.2
+	Lavaplayer      1.3.17
+
+2019-08-29 14:24:26.082  INFO 7800 --- [main] o.s.boot.SpringApplication               :        .   _                  _ _       _    __ _ _
+      /\\ | | __ ___   ____ _| (_)_ __ | | __\ \ \ \
+     ( ( )| |/ _` \ \ / / _` | | | '_ \| |/ / \ \ \ \
+      \\/ | | (_| |\ V / (_| | | | | | |   <   ) ) ) )
+       '  |_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\ / / / /
+    =========================================/_/_/_/
+
+    :: Lavalink    ::       
+    :: Spring Boot ::        (v2.0.4.RELEASE)
+
+
+2019-08-29 14:24:26.326  WARN 7800 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2019-08-29 14:24:27.004  INFO 7800 --- [main] lavalink.server.Launcher                 : Starting Launcher on Cássio with PID 7800 (C:\Users\PATRICIA\Desktop\Works\Bots\New Geration\ryoko\Lavalink.jar started by PATRICIA in C:\Users\PATRICIA\Desktop\Works\Bots\New Geration\ryoko)
+2019-08-29 14:24:27.014  INFO 7800 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2019-08-29 14:24:27.236  INFO 7800 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@757acd7b: startup date [Thu Aug 29 14:24:27 BRT 2019]; root of context hierarchy
+2019-08-29 14:24:35.173  INFO 7800 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2019-08-29 14:24:35.306  INFO 7800 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2019-08-29 14:24:37.000  WARN 7800 --- [main] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2019-08-29 14:24:37.002  WARN 7800 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2019-08-29 14:24:37.228  INFO 7800 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2019-08-29 14:24:37.293  INFO 7800 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 10058 ms
+2019-08-29 14:24:37.796  INFO 7800 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-08-29 14:24:37.842  INFO 7800 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-29 14:24:37.843  INFO 7800 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-29 14:24:37.845  INFO 7800 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-08-29 14:24:37.845  INFO 7800 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-29 14:24:37.847  INFO 7800 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'responseHeaderFilter' to: [/*]
+2019-08-29 14:24:38.310  WARN 7800 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2019-08-29 14:24:38.378  INFO 7800 --- [main] l.s.c.AudioSendFactoryConfiguration      : OS: Windows 10, Arch: amd64
+2019-08-29 14:24:38.379  INFO 7800 --- [main] l.s.c.AudioSendFactoryConfiguration      : JDA-NAS supported system detected. Enabled native audio sending.
+2019-08-29 14:24:38.380  INFO 7800 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting buffer to 400ms
+2019-08-29 14:24:38.380  INFO 7800 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting playlist load limit to 6
+2019-08-29 14:24:44.498  INFO 7800 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2019-08-29 14:24:45.049  INFO 7800 --- [main] o.s.w.s.s.s.WebSocketHandlerMapping      : Root mapping to handler of type [class org.springframework.web.socket.server.support.WebSocketHttpRequestHandler]
+2019-08-29 14:24:45.752  INFO 7800 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-29 14:24:46.906  INFO 7800 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@757acd7b: startup date [Thu Aug 29 14:24:27 BRT 2019]; root of context hierarchy
+2019-08-29 14:24:47.242  INFO 7800 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/decodetrack],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.String> lavalink.server.player.AudioLoaderRestHandler.getDecodeTrack(javax.servlet.http.HttpServletRequest,java.lang.String) throws java.io.IOException
+2019-08-29 14:24:47.248  INFO 7800 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/decodetracks],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.String> lavalink.server.player.AudioLoaderRestHandler.postDecodeTracks(javax.servlet.http.HttpServletRequest,java.lang.String) throws java.io.IOException
+2019-08-29 14:24:47.251  INFO 7800 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/loadtracks],methods=[GET],produces=[application/json]}" onto public java.util.concurrent.CompletionStage<org.springframework.http.ResponseEntity<java.lang.String>> lavalink.server.player.AudioLoaderRestHandler.getLoadTracks(javax.servlet.http.HttpServletRequest,java.lang.String)
+2019-08-29 14:24:47.254  INFO 7800 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/version],methods=[GET]}" onto public java.lang.String lavalink.server.info.InfoRestHandler.version()
+2019-08-29 14:24:47.270  INFO 7800 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-08-29 14:24:47.271  INFO 7800 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-08-29 14:24:47.370  INFO 7800 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-29 14:24:47.370  INFO 7800 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-08-29 14:24:48.358  INFO 7800 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-08-29 14:24:48.377  INFO 7800 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2019-08-29 14:24:48.625  INFO 7800 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2019-08-29 14:24:48.649  INFO 7800 --- [main] lavalink.server.Launcher                 : Started Launcher in 31.603 seconds (JVM running for 40.012)
+2019-08-29 14:25:05.219  INFO 7800 --- [XNIO-2 task-1] io.undertow.servlet                      : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-08-29 14:25:05.220  INFO 7800 --- [XNIO-2 task-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-08-29 14:25:05.250  INFO 7800 --- [XNIO-2 task-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2019-08-29 14:25:05.311  INFO 7800 --- [XNIO-2 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:3598
+2019-08-29 14:25:05.569  INFO 7800 --- [XNIO-2 task-1] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2019-08-29 14:25:05.833  INFO 7800 --- [XNIO-2 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:3598
+2019-08-29 14:25:55.616  INFO 7800 --- [XNIO-2 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:3598 -- CloseStatus[code=1006, reason=]
+2019-08-29 14:25:55.619  INFO 7800 --- [XNIO-2 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2019-08-29 14:25:55.622  INFO 7800 --- [XNIO-2 I/O-1] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2019-08-29 14:26:28.056  INFO 7800 --- [XNIO-2 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:3721
+2019-08-29 14:26:28.072  INFO 7800 --- [XNIO-2 task-2] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2019-08-29 14:26:28.085  INFO 7800 --- [XNIO-2 task-2] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:3721
+2019-08-29 14:29:55.942  INFO 7800 --- [XNIO-2 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:3721 -- CloseStatus[code=1006, reason=]
+2019-08-29 14:29:55.944  INFO 7800 --- [XNIO-2 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2019-08-29 14:29:55.946  INFO 7800 --- [XNIO-2 I/O-1] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2019-08-29 14:30:17.097  INFO 7800 --- [XNIO-2 task-3] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:4000
+2019-08-29 14:30:17.121  INFO 7800 --- [XNIO-2 task-3] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2019-08-29 14:30:17.135  INFO 7800 --- [XNIO-2 task-3] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:4000
+2019-08-29 14:31:12.812  INFO 7800 --- [XNIO-2 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:4000 -- CloseStatus[code=1006, reason=]
+2019-08-29 14:31:12.813  INFO 7800 --- [XNIO-2 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2019-08-29 14:31:12.816  INFO 7800 --- [XNIO-2 I/O-1] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2019-08-29 14:31:31.212  INFO 7800 --- [XNIO-2 task-4] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:4096
+2019-08-29 14:31:31.221  INFO 7800 --- [XNIO-2 task-4] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2019-08-29 14:31:31.236  INFO 7800 --- [XNIO-2 task-4] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:4096
+2019-08-29 14:32:49.422  INFO 7800 --- [XNIO-2 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:4096 -- CloseStatus[code=1006, reason=]
+2019-08-29 14:32:49.427  INFO 7800 --- [XNIO-2 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2019-08-29 14:32:49.429  INFO 7800 --- [XNIO-2 I/O-1] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2019-08-29 14:33:02.209  INFO 7800 --- [XNIO-2 task-5] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:4210
+2019-08-29 14:33:02.217  INFO 7800 --- [XNIO-2 task-5] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2019-08-29 14:33:02.225  INFO 7800 --- [XNIO-2 task-5] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:4210
+2019-08-29 14:33:12.072  INFO 7800 --- [XNIO-2 task-6] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2019-08-29 14:33:15.613  INFO 7800 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Eletronica
+2019-08-29 14:34:10.219  INFO 7800 --- [XNIO-2 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:4210 -- CloseStatus[code=1006, reason=]
+2019-08-29 14:34:10.221  INFO 7800 --- [XNIO-2 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2019-08-29 14:34:10.225  INFO 7800 --- [XNIO-2 I/O-1] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2019-08-29 14:34:28.668  INFO 7800 --- [XNIO-2 task-8] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:4338
+2019-08-29 14:34:28.678  INFO 7800 --- [XNIO-2 task-8] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2019-08-29 14:34:28.685  INFO 7800 --- [XNIO-2 task-8] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:4338
+2019-08-29 14:34:43.231  INFO 7800 --- [XNIO-2 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:4338 -- CloseStatus[code=1006, reason=]
+2019-08-29 14:34:43.262  INFO 7800 --- [XNIO-2 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2019-08-29 14:34:43.275  INFO 7800 --- [XNIO-2 I/O-3] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2019-08-29 14:34:56.402  INFO 7800 --- [XNIO-2 task-9] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:4399
+2019-08-29 14:34:56.412  INFO 7800 --- [XNIO-2 task-9] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2019-08-29 14:34:56.419  INFO 7800 --- [XNIO-2 task-9] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:4399
+2019-08-29 14:35:03.474  INFO 7800 --- [XNIO-2 task-10] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2019-08-29 14:35:04.033  INFO 7800 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Eletronica
+2019-08-29 14:35:54.494  INFO 7800 --- [XNIO-2 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:4399 -- CloseStatus[code=1006, reason=]
+2019-08-29 14:35:54.496  INFO 7800 --- [XNIO-2 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2019-08-29 14:35:54.498  INFO 7800 --- [XNIO-2 I/O-1] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2019-08-29 14:36:08.580  INFO 7800 --- [XNIO-2 task-12] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:4508
+2019-08-29 14:36:08.587  INFO 7800 --- [XNIO-2 task-12] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2019-08-29 14:36:08.600  INFO 7800 --- [XNIO-2 task-12] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:4508
+2019-08-29 14:36:25.159  INFO 7800 --- [XNIO-2 task-13] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2019-08-29 14:36:25.635  INFO 7800 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Eletronica
+2019-08-29 14:36:26.699  INFO 7800 --- [XNIO-2 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"425864977996578816","track":"QAAAvwIAS0NhcnRvb24gLSBXaHkgV2UgTG9zZSAoZmVhdC4gQ29sZW1hbiBUcmFwcCkgfCAoTEVUUkEpIFNVQlRJVFVMT1MgLSBFU1BBw5FPTAAaTm9Db3B5cmlnaHRTb3VuZHMgRVNQQcORT0wAAAAAAAND8AALUUNvRlNIMWsyZWcAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1RQ29GU0gxazJlZwAHeW91dHViZQAAAAAAAAAA"}
+2019-08-29 14:36:26.890  INFO 7800 --- [XNIO-2 I/O-2] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"425864977996578816","volume":25}
+2019-08-29 14:36:26.956  INFO 7800 --- [XNIO-2 I/O-2] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"425864977996578816","sessionId":"168da9fd538a5ef293255e5e88378c18","event":{"token":"844609d046a75700","guild_id":"425864977996578816","endpoint":"brazil871.discord.gg:80"}}
+2019-08-29 14:36:30.375  INFO 7800 --- [lava-daemon-pool-playback-33-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda$574/832531777@7993ade4
+2019-08-29 14:36:31.250  INFO 7800 --- [lava-daemon-pool-playback-33-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: successfully loaded.
+2019-08-29 14:36:31.251  INFO 7800 --- [lava-daemon-pool-playback-33-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: loading with filter null
+2019-08-29 14:36:32.293  INFO 7800 --- [lava-daemon-pool-playback-33-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: successfully loaded.
+2019-08-29 14:40:04.802  INFO 7800 --- [XNIO-2 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"425864977996578816","track":"QAAAigIAH1ByaXNtbyAtIFN0cm9uZ2VyIFtOQ1MgUmVsZWFzZV0AEU5vQ29weXJpZ2h0U291bmRzAAAAAAADQAgAC0lJd2lNNzc3T3pRAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9SUl3aU03NzdPelEAB3lvdXR1YmUAAAAAAAAAAA=="}
+2019-08-29 14:40:04.807  INFO 7800 --- [XNIO-2 I/O-2] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"425864977996578816","volume":25}
+2019-08-29 14:43:09.438  INFO 7800 --- [XNIO-2 task-15] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2019-08-29 14:43:20.272 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:43:21.310 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:43:22.135 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:43:23.410 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:43:24.475 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:43:25.559 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:43:30.022 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method) ~[na:na]
+	at java.base/java.net.SocketInputStream.socketRead(Unknown Source) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(Unknown Source) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(Unknown Source) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(Unknown Source) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(Unknown Source) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.bytesInCompletePacket(Unknown Source) ~[na:na]
+	at java.base/sun.security.ssl.AppInputStream.read(Unknown Source) ~[na:na]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:282) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.io.ChunkedInputStream.getChunkSize(ChunkedInputStream.java:264) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.io.ChunkedInputStream.nextChunk(ChunkedInputStream.java:225) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.io.ChunkedInputStream.read(ChunkedInputStream.java:184) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:135) ~[httpclient-4.5.6.jar!/:4.5.6]
+	at java.base/java.util.zip.InflaterInputStream.fill(Unknown Source) ~[na:na]
+	at java.base/java.util.zip.InflaterInputStream.read(Unknown Source) ~[na:na]
+	at java.base/java.util.zip.GZIPInputStream.read(Unknown Source) ~[na:na]
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:70) ~[httpclient-4.5.6.jar!/:4.5.6]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[na:na]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[na:na]
+	at java.base/sun.nio.cs.StreamDecoder.read(Unknown Source) ~[na:na]
+	at java.base/java.io.InputStreamReader.read(Unknown Source) ~[na:na]
+	at java.base/java.io.Reader.read(Unknown Source) ~[na:na]
+	at org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:2537) ~[commons-io-2.6.jar!/:2.6]
+	at org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:2516) ~[commons-io-2.6.jar!/:2.6]
+	at org.apache.commons.io.IOUtils.copy(IOUtils.java:2493) ~[commons-io-2.6.jar!/:2.6]
+	at org.apache.commons.io.IOUtils.copy(IOUtils.java:2441) ~[commons-io-2.6.jar!/:2.6]
+	at org.apache.commons.io.IOUtils.toString(IOUtils.java:1084) ~[commons-io-2.6.jar!/:2.6]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.getTrackInfoFromMainPage(YoutubeAudioSourceManager.java:351) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:201) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:43:31.566 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:43:36.862 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method) ~[na:na]
+	at java.base/java.net.SocketInputStream.socketRead(Unknown Source) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(Unknown Source) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(Unknown Source) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(Unknown Source) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(Unknown Source) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.bytesInCompletePacket(Unknown Source) ~[na:na]
+	at java.base/sun.security.ssl.AppInputStream.read(Unknown Source) ~[na:na]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:282) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.io.ChunkedInputStream.getChunkSize(ChunkedInputStream.java:264) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.io.ChunkedInputStream.nextChunk(ChunkedInputStream.java:225) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.io.ChunkedInputStream.read(ChunkedInputStream.java:184) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:135) ~[httpclient-4.5.6.jar!/:4.5.6]
+	at java.base/java.util.zip.InflaterInputStream.fill(Unknown Source) ~[na:na]
+	at java.base/java.util.zip.InflaterInputStream.read(Unknown Source) ~[na:na]
+	at java.base/java.util.zip.GZIPInputStream.read(Unknown Source) ~[na:na]
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:70) ~[httpclient-4.5.6.jar!/:4.5.6]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[na:na]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[na:na]
+	at java.base/sun.nio.cs.StreamDecoder.read(Unknown Source) ~[na:na]
+	at java.base/java.io.InputStreamReader.read(Unknown Source) ~[na:na]
+	at java.base/java.io.Reader.read(Unknown Source) ~[na:na]
+	at org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:2537) ~[commons-io-2.6.jar!/:2.6]
+	at org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:2516) ~[commons-io-2.6.jar!/:2.6]
+	at org.apache.commons.io.IOUtils.copy(IOUtils.java:2493) ~[commons-io-2.6.jar!/:2.6]
+	at org.apache.commons.io.IOUtils.copy(IOUtils.java:2441) ~[commons-io-2.6.jar!/:2.6]
+	at org.apache.commons.io.IOUtils.toString(IOUtils.java:1084) ~[commons-io-2.6.jar!/:2.6]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.getTrackInfoFromMainPage(YoutubeAudioSourceManager.java:351) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:201) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:43:37.823  INFO 7800 --- [XNIO-2 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"425864977996578816","track":"QAAApAIAOUNhcnRvb24gLSBXaHkgV2UgTG9zZSAoZmVhdC4gQ29sZW1hbiBUcmFwcCkgW05DUyBSZWxlYXNlXQARTm9Db3B5cmlnaHRTb3VuZHMAAAAAAAND8AALenlYbXNWd1pxWDQAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj16eVhtc1Z3WnFYNAAHeW91dHViZQAAAAAAAAAA"}
+2019-08-29 14:43:37.837  INFO 7800 --- [XNIO-2 I/O-2] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"425864977996578816","volume":25}
+2019-08-29 14:43:38.406 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:43:39.577 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:43:40.690 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:43:42.074 ERROR 7800 --- [lava-daemon-pool-playback-33-thread-1] c.s.d.l.t.p.LocalAudioTrackExecutor      : Error in playback of zyXmsVwZqX4
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Something broke when playing the track.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.track.playback.LocalAudioTrackExecutor.execute(LocalAudioTrackExecutor.java:102) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$executeTrack$1(DefaultAudioPlayerManager.java:349) [lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method) ~[na:na]
+	at java.base/java.net.SocketInputStream.socketRead(Unknown Source) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(Unknown Source) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(Unknown Source) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(Unknown Source) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(Unknown Source) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.bytesInCompletePacket(Unknown Source) ~[na:na]
+	at java.base/sun.security.ssl.AppInputStream.read(Unknown Source) ~[na:na]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:282) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.io.ChunkedInputStream.getChunkSize(ChunkedInputStream.java:264) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.io.ChunkedInputStream.nextChunk(ChunkedInputStream.java:225) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.io.ChunkedInputStream.read(ChunkedInputStream.java:184) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:135) ~[httpclient-4.5.6.jar!/:4.5.6]
+	at java.base/java.util.zip.InflaterInputStream.fill(Unknown Source) ~[na:na]
+	at java.base/java.util.zip.InflaterInputStream.read(Unknown Source) ~[na:na]
+	at java.base/java.util.zip.GZIPInputStream.read(Unknown Source) ~[na:na]
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:70) ~[httpclient-4.5.6.jar!/:4.5.6]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[na:na]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[na:na]
+	at java.base/sun.nio.cs.StreamDecoder.read(Unknown Source) ~[na:na]
+	at java.base/java.io.InputStreamReader.read(Unknown Source) ~[na:na]
+	at java.base/java.io.Reader.read(Unknown Source) ~[na:na]
+	at org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:2537) ~[commons-io-2.6.jar!/:2.6]
+	at org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:2516) ~[commons-io-2.6.jar!/:2.6]
+	at org.apache.commons.io.IOUtils.copy(IOUtils.java:2493) ~[commons-io-2.6.jar!/:2.6]
+	at org.apache.commons.io.IOUtils.copy(IOUtils.java:2441) ~[commons-io-2.6.jar!/:2.6]
+	at org.apache.commons.io.IOUtils.toString(IOUtils.java:1084) ~[commons-io-2.6.jar!/:2.6]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.getTrackInfoFromMainPage(YoutubeAudioSourceManager.java:351) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioTrack.getTrackInfo(YoutubeAudioTrack.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioTrack.loadBestFormatWithUrl(YoutubeAudioTrack.java:95) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioTrack.process(YoutubeAudioTrack.java:62) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.track.playback.LocalAudioTrackExecutor.execute(LocalAudioTrackExecutor.java:90) ~[lavaplayer-1.3.17.jar!/:na]
+	... 4 common frames omitted
+
+2019-08-29 14:43:42.137  INFO 7800 --- [XNIO-2 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"425864977996578816","track":"QAAAsgIAPkpvIENvaGVuICYgU2V4IFdoYWxlcyAtIFdlIEFyZSB8IChMRVRSQSkgU1VCVElUVUxPUyAtIEVTUEHDkU9MABpOb0NvcHlyaWdodFNvdW5kcyBFU1BBw5FPTAAAAAAAA6WYAAtLVHRZS3JNQ3d1QQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUtUdFlLck1Dd3VBAAd5b3V0dWJlAAAAAAAAAAA="}
+2019-08-29 14:43:42.148  INFO 7800 --- [XNIO-2 I/O-2] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"425864977996578816","volume":25}
+2019-08-29 14:43:45.381 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method) ~[na:na]
+	at java.base/java.net.SocketInputStream.socketRead(Unknown Source) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(Unknown Source) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(Unknown Source) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(Unknown Source) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(Unknown Source) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.bytesInCompletePacket(Unknown Source) ~[na:na]
+	at java.base/sun.security.ssl.AppInputStream.read(Unknown Source) ~[na:na]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:282) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.io.ChunkedInputStream.getChunkSize(ChunkedInputStream.java:264) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.io.ChunkedInputStream.nextChunk(ChunkedInputStream.java:225) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.io.ChunkedInputStream.read(ChunkedInputStream.java:184) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:135) ~[httpclient-4.5.6.jar!/:4.5.6]
+	at java.base/java.util.zip.InflaterInputStream.fill(Unknown Source) ~[na:na]
+	at java.base/java.util.zip.InflaterInputStream.read(Unknown Source) ~[na:na]
+	at java.base/java.util.zip.GZIPInputStream.read(Unknown Source) ~[na:na]
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:70) ~[httpclient-4.5.6.jar!/:4.5.6]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[na:na]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[na:na]
+	at java.base/sun.nio.cs.StreamDecoder.read(Unknown Source) ~[na:na]
+	at java.base/java.io.InputStreamReader.read(Unknown Source) ~[na:na]
+	at java.base/java.io.Reader.read(Unknown Source) ~[na:na]
+	at org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:2537) ~[commons-io-2.6.jar!/:2.6]
+	at org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:2516) ~[commons-io-2.6.jar!/:2.6]
+	at org.apache.commons.io.IOUtils.copy(IOUtils.java:2493) ~[commons-io-2.6.jar!/:2.6]
+	at org.apache.commons.io.IOUtils.copy(IOUtils.java:2441) ~[commons-io-2.6.jar!/:2.6]
+	at org.apache.commons.io.IOUtils.toString(IOUtils.java:1084) ~[commons-io-2.6.jar!/:2.6]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.getTrackInfoFromMainPage(YoutubeAudioSourceManager.java:351) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:201) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:43:46.616 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:43:49.946 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:43:52.098 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:43:54.107 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:43:58.532 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:43:59.412 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:44:02.922 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:44:04.160 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:44:05.108 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:44:06.226 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:44:06.626  INFO 7800 --- [XNIO-2 task-18] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2019-08-29 14:44:09.274 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method) ~[na:na]
+	at java.base/java.net.SocketInputStream.socketRead(Unknown Source) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(Unknown Source) ~[na:na]
+	at java.base/java.net.SocketInputStream.read(Unknown Source) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(Unknown Source) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(Unknown Source) ~[na:na]
+	at java.base/sun.security.ssl.SSLSocketImpl.bytesInCompletePacket(Unknown Source) ~[na:na]
+	at java.base/sun.security.ssl.AppInputStream.read(Unknown Source) ~[na:na]
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:282) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138) ~[httpclient-4.5.6.jar!/:4.5.6]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56) ~[httpclient-4.5.6.jar!/:4.5.6]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165) ~[httpclient-4.5.6.jar!/:4.5.6]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125) ~[httpcore-4.4.10.jar!/:4.4.10]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272) ~[httpclient-4.5.6.jar!/:4.5.6]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185) ~[httpclient-4.5.6.jar!/:4.5.6]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.6.jar!/:4.5.6]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.6.jar!/:4.5.6]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.6.jar!/:4.5.6]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.6.jar!/:4.5.6]
+	at com.sedmelluq.discord.lavaplayer.tools.io.HttpInterface.execute(HttpInterface.java:60) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.getTrackInfoFromMainPage(YoutubeAudioSourceManager.java:345) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:201) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:44:11.560 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:44:11.567  WARN 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.p.DefaultAudioPlayerManager      : Suspicious exception for loading item https://www.youtube.com/watch?v=KdIaui-GgP8&list=RDQMpTJef94ZqhY&start_radio=1
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: No tracks from the mix loaded succesfully.
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.loadTracksAsynchronously(YoutubeMixProvider.java:129) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.loadMixWithId(YoutubeMixProvider.java:101) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadFromUrlWithVideoId(YoutubeAudioSourceManager.java:302) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadFromMainDomain(YoutubeAudioSourceManager.java:244) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadNonSearch(YoutubeAudioSourceManager.java:314) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItemOnce(YoutubeAudioSourceManager.java:189) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItem(YoutubeAudioSourceManager.java:128) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItemOnce(DefaultAudioPlayerManager.java:437) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItem(DefaultAudioPlayerManager.java:419) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$createItemLoader$0(DefaultAudioPlayerManager.java:218) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+
+2019-08-29 14:44:11.628 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Load failed
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: No tracks from the mix loaded succesfully.
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.loadTracksAsynchronously(YoutubeMixProvider.java:129) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.loadMixWithId(YoutubeMixProvider.java:101) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadFromUrlWithVideoId(YoutubeAudioSourceManager.java:302) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadFromMainDomain(YoutubeAudioSourceManager.java:244) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadNonSearch(YoutubeAudioSourceManager.java:314) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItemOnce(YoutubeAudioSourceManager.java:189) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItem(YoutubeAudioSourceManager.java:128) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItemOnce(DefaultAudioPlayerManager.java:437) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItem(DefaultAudioPlayerManager.java:419) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$createItemLoader$0(DefaultAudioPlayerManager.java:218) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+
+2019-08-29 14:44:17.548  WARN 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.p.DefaultAudioPlayerManager      : Suspicious exception for loading item https://www.youtube.com/watch?v=KdIaui-GgP8&list=RDQMpTJef94ZqhY&start_radio=1,https://www.youtube.com/playlist?list=PLX3_d1K7kSM8RKixNdHPoOH9qTCrNh9oo
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Could not read mix page.
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.loadMixWithId(YoutubeMixProvider.java:94) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadFromUrlWithVideoId(YoutubeAudioSourceManager.java:302) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadFromMainDomain(YoutubeAudioSourceManager.java:244) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadNonSearch(YoutubeAudioSourceManager.java:314) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItemOnce(YoutubeAudioSourceManager.java:189) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItem(YoutubeAudioSourceManager.java:128) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItemOnce(DefaultAudioPlayerManager.java:437) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItem(DefaultAudioPlayerManager.java:419) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$createItemLoader$0(DefaultAudioPlayerManager.java:218) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.io.IOException: Underlying input stream returned zero bytes
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[na:na]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[na:na]
+	at java.base/sun.nio.cs.StreamDecoder.read(Unknown Source) ~[na:na]
+	at java.base/java.io.InputStreamReader.read(Unknown Source) ~[na:na]
+	at java.base/java.io.BufferedReader.fill(Unknown Source) ~[na:na]
+	at java.base/java.io.BufferedReader.read1(Unknown Source) ~[na:na]
+	at java.base/java.io.BufferedReader.read(Unknown Source) ~[na:na]
+	at java.base/java.io.Reader.read(Unknown Source) ~[na:na]
+	at org.jsoup.parser.CharacterReader.bufferUp(CharacterReader.java:53) ~[jsoup-1.11.3.jar!/:na]
+	at org.jsoup.parser.CharacterReader.current(CharacterReader.java:93) ~[jsoup-1.11.3.jar!/:na]
+	at org.jsoup.parser.TokeniserState.readData(TokeniserState.java:1671) ~[jsoup-1.11.3.jar!/:na]
+	at org.jsoup.parser.TokeniserState.access$200(TokeniserState.java:8) ~[jsoup-1.11.3.jar!/:na]
+	at org.jsoup.parser.TokeniserState$6.read(TokeniserState.java:76) ~[jsoup-1.11.3.jar!/:na]
+	at org.jsoup.parser.Tokeniser.read(Tokeniser.java:57) ~[jsoup-1.11.3.jar!/:na]
+	at org.jsoup.parser.TreeBuilder.runParser(TreeBuilder.java:51) ~[jsoup-1.11.3.jar!/:na]
+	at org.jsoup.parser.TreeBuilder.parse(TreeBuilder.java:45) ~[jsoup-1.11.3.jar!/:na]
+	at org.jsoup.parser.Parser.parseInput(Parser.java:39) ~[jsoup-1.11.3.jar!/:na]
+	at org.jsoup.helper.DataUtil.parseInputStream(DataUtil.java:153) ~[jsoup-1.11.3.jar!/:na]
+	at org.jsoup.helper.DataUtil.load(DataUtil.java:64) ~[jsoup-1.11.3.jar!/:na]
+	at org.jsoup.Jsoup.parse(Jsoup.java:118) ~[jsoup-1.11.3.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.loadMixWithId(YoutubeMixProvider.java:86) ~[lavaplayer-1.3.17.jar!/:na]
+	... 12 common frames omitted
+
+2019-08-29 14:44:17.554 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Load failed
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Could not read mix page.
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.loadMixWithId(YoutubeMixProvider.java:94) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadFromUrlWithVideoId(YoutubeAudioSourceManager.java:302) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadFromMainDomain(YoutubeAudioSourceManager.java:244) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadNonSearch(YoutubeAudioSourceManager.java:314) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItemOnce(YoutubeAudioSourceManager.java:189) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItem(YoutubeAudioSourceManager.java:128) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItemOnce(DefaultAudioPlayerManager.java:437) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItem(DefaultAudioPlayerManager.java:419) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$createItemLoader$0(DefaultAudioPlayerManager.java:218) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.io.IOException: Underlying input stream returned zero bytes
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[na:na]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[na:na]
+	at java.base/sun.nio.cs.StreamDecoder.read(Unknown Source) ~[na:na]
+	at java.base/java.io.InputStreamReader.read(Unknown Source) ~[na:na]
+	at java.base/java.io.BufferedReader.fill(Unknown Source) ~[na:na]
+	at java.base/java.io.BufferedReader.read1(Unknown Source) ~[na:na]
+	at java.base/java.io.BufferedReader.read(Unknown Source) ~[na:na]
+	at java.base/java.io.Reader.read(Unknown Source) ~[na:na]
+	at org.jsoup.parser.CharacterReader.bufferUp(CharacterReader.java:53) ~[jsoup-1.11.3.jar!/:na]
+	at org.jsoup.parser.CharacterReader.current(CharacterReader.java:93) ~[jsoup-1.11.3.jar!/:na]
+	at org.jsoup.parser.TokeniserState.readData(TokeniserState.java:1671) ~[jsoup-1.11.3.jar!/:na]
+	at org.jsoup.parser.TokeniserState.access$200(TokeniserState.java:8) ~[jsoup-1.11.3.jar!/:na]
+	at org.jsoup.parser.TokeniserState$6.read(TokeniserState.java:76) ~[jsoup-1.11.3.jar!/:na]
+	at org.jsoup.parser.Tokeniser.read(Tokeniser.java:57) ~[jsoup-1.11.3.jar!/:na]
+	at org.jsoup.parser.TreeBuilder.runParser(TreeBuilder.java:51) ~[jsoup-1.11.3.jar!/:na]
+	at org.jsoup.parser.TreeBuilder.parse(TreeBuilder.java:45) ~[jsoup-1.11.3.jar!/:na]
+	at org.jsoup.parser.Parser.parseInput(Parser.java:39) ~[jsoup-1.11.3.jar!/:na]
+	at org.jsoup.helper.DataUtil.parseInputStream(DataUtil.java:153) ~[jsoup-1.11.3.jar!/:na]
+	at org.jsoup.helper.DataUtil.load(DataUtil.java:64) ~[jsoup-1.11.3.jar!/:na]
+	at org.jsoup.Jsoup.parse(Jsoup.java:118) ~[jsoup-1.11.3.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.loadMixWithId(YoutubeMixProvider.java:86) ~[lavaplayer-1.3.17.jar!/:na]
+	... 12 common frames omitted
+
+2019-08-29 14:45:24.610  INFO 7800 --- [XNIO-2 task-20] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2019-08-29 14:45:28.847 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:45:29.565 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:45:30.363 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:45:31.131 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:45:32.669 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:45:33.424 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:45:35.744 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:45:37.309 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:45:38.040 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:45:38.902 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:45:39.667 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:45:40.888 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:45:41.772 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:45:42.645 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:45:43.712 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:45:44.643 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:45:45.339 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:45:46.066 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:45:47.053 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:45:47.858 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:45:48.770 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:45:49.530 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:45:50.299 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:45:52.247 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:45:52.945 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.youtube.YoutubeMixProvider     : Error in Loading a track from a mix.
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Loading information for a YouTube track failed.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:217) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.lambda$loadTracksAsynchronously$0(YoutubeMixProvider.java:117) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.NullPointerException: null
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadTrackWithVideoId(YoutubeAudioSourceManager.java:213) ~[lavaplayer-1.3.17.jar!/:na]
+	... 7 common frames omitted
+
+2019-08-29 14:45:53.225  WARN 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.p.DefaultAudioPlayerManager      : Suspicious exception for loading item https://www.youtube.com/watch?v=KdIaui-GgP8&list=RDQMpTJef94ZqhY&start_radio=1,https://www.youtube.com/playlist?list=PLX3_d1K7kSM8RKixNdHPoOH9qTCrNh9oo,https://www.youtube.com/playlist?list=PLX3_d1K7kSM8RKixNdHPoOH9qTCrNh9oo,https://www.youtube.com/playlist?list=PL5h7VzCItf3SWJxx17xQ8ojYMdllqbfNK
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: No tracks from the mix loaded succesfully.
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.loadTracksAsynchronously(YoutubeMixProvider.java:129) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.loadMixWithId(YoutubeMixProvider.java:101) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadFromUrlWithVideoId(YoutubeAudioSourceManager.java:302) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadFromMainDomain(YoutubeAudioSourceManager.java:244) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadNonSearch(YoutubeAudioSourceManager.java:314) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItemOnce(YoutubeAudioSourceManager.java:189) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItem(YoutubeAudioSourceManager.java:128) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItemOnce(DefaultAudioPlayerManager.java:437) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItem(DefaultAudioPlayerManager.java:419) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$createItemLoader$0(DefaultAudioPlayerManager.java:218) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+
+2019-08-29 14:45:53.439 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Load failed
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: No tracks from the mix loaded succesfully.
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.loadTracksAsynchronously(YoutubeMixProvider.java:129) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeMixProvider.loadMixWithId(YoutubeMixProvider.java:101) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadFromUrlWithVideoId(YoutubeAudioSourceManager.java:302) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadFromMainDomain(YoutubeAudioSourceManager.java:244) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadNonSearch(YoutubeAudioSourceManager.java:314) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItemOnce(YoutubeAudioSourceManager.java:189) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItem(YoutubeAudioSourceManager.java:128) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItemOnce(DefaultAudioPlayerManager.java:437) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItem(DefaultAudioPlayerManager.java:419) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$createItemLoader$0(DefaultAudioPlayerManager.java:218) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+
+2019-08-29 14:47:00.539  INFO 7800 --- [XNIO-2 task-22] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2019-08-29 14:47:00.543 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.p.DefaultAudioPlayerManager      : Error in loading item https://www.youtube.com/watch?v=KdIaui-GgP8&list=RDQMpTJef94ZqhY&start_radio=1,https://www.youtube.com/playlist?list=PLX3_d1K7kSM8RKixNdHPoOH9qTCrNh9oo,https://www.youtube.com/playlist?list=PLX3_d1K7kSM8RKixNdHPoOH9qTCrNh9oo,https://www.youtube.com/playlist?list=PL5h7VzCItf3SWJxx17xQ8ojYMdllqbfNK,https://www.youtube.com/watch?v=KWOmboz-PkU&list=PLX3_d1K7kSM8RKixNdHPoOH9qTCrNh9oo&index=4&t=0s
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Something went wrong when looking up the track
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.dispatchItemLoadFailure(DefaultAudioPlayerManager.java:237) [lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$createItemLoader$0(DefaultAudioPlayerManager.java:226) [lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.IllegalStateException: Duplicate key list (attempted merging values RDQMpTJef94ZqhY and PLX3_d1K7kSM8RKixNdHPoOH9qTCrNh9oo)
+	at java.base/java.util.stream.Collectors.duplicateKeyException(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$3ReducingSink.accept(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(Unknown Source) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(Unknown Source) ~[na:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.getUrlInfo(YoutubeAudioSourceManager.java:551) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadFromMainDomain(YoutubeAudioSourceManager.java:238) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadNonSearch(YoutubeAudioSourceManager.java:314) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItemOnce(YoutubeAudioSourceManager.java:189) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItem(YoutubeAudioSourceManager.java:128) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItemOnce(DefaultAudioPlayerManager.java:437) [lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItem(DefaultAudioPlayerManager.java:419) [lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$createItemLoader$0(DefaultAudioPlayerManager.java:218) [lavaplayer-1.3.17.jar!/:na]
+	... 4 common frames omitted
+
+2019-08-29 14:47:00.547 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Load failed
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Something went wrong when looking up the track
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.dispatchItemLoadFailure(DefaultAudioPlayerManager.java:237) [lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$createItemLoader$0(DefaultAudioPlayerManager.java:226) [lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.IllegalStateException: Duplicate key list (attempted merging values RDQMpTJef94ZqhY and PLX3_d1K7kSM8RKixNdHPoOH9qTCrNh9oo)
+	at java.base/java.util.stream.Collectors.duplicateKeyException(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$3ReducingSink.accept(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(Unknown Source) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(Unknown Source) ~[na:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.getUrlInfo(YoutubeAudioSourceManager.java:551) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadFromMainDomain(YoutubeAudioSourceManager.java:238) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadNonSearch(YoutubeAudioSourceManager.java:314) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItemOnce(YoutubeAudioSourceManager.java:189) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItem(YoutubeAudioSourceManager.java:128) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItemOnce(DefaultAudioPlayerManager.java:437) [lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItem(DefaultAudioPlayerManager.java:419) [lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$createItemLoader$0(DefaultAudioPlayerManager.java:218) [lavaplayer-1.3.17.jar!/:na]
+	... 4 common frames omitted
+
+2019-08-29 14:47:05.875  INFO 7800 --- [XNIO-2 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:4508 -- CloseStatus[code=1006, reason=]
+2019-08-29 14:47:05.879  INFO 7800 --- [XNIO-2 I/O-2] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2019-08-29 14:47:05.898  INFO 7800 --- [XNIO-2 I/O-2] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2019-08-29 14:47:05.905  WARN 7800 --- [lava-daemon-pool-playback-33-thread-1] c.s.d.l.t.p.LocalAudioTrackExecutor      : Suspicious exception for playback of KTtYKrMCwuA
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: The track was unexpectedly terminated.
+	at com.sedmelluq.discord.lavaplayer.track.playback.LocalAudioTrackExecutor.handlePlaybackInterrupt(LocalAudioTrackExecutor.java:323) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.track.playback.LocalAudioTrackExecutor.executeProcessingLoop(LocalAudioTrackExecutor.java:267) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaAudioTrack.process(MatroskaAudioTrack.java:38) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.track.DelegatedAudioTrack.processDelegate(DelegatedAudioTrack.java:27) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioTrack.processStatic(YoutubeAudioTrack.java:77) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioTrack.process(YoutubeAudioTrack.java:69) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.track.playback.LocalAudioTrackExecutor.execute(LocalAudioTrackExecutor.java:90) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$executeTrack$1(DefaultAudioPlayerManager.java:349) [lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ArrayBlockingQueue.put(Unknown Source) ~[na:na]
+	at com.sedmelluq.discord.lavaplayer.track.playback.AllocatingAudioFrameBuffer.consume(AllocatingAudioFrameBuffer.java:179) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.filter.BufferingPostProcessor.process(BufferingPostProcessor.java:41) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.filter.FinalPcmAudioFilter.dispatch(FinalPcmAudioFilter.java:158) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.filter.FinalPcmAudioFilter.process(FinalPcmAudioFilter.java:130) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.filter.UserProvidedAudioFilters.process(UserProvidedAudioFilters.java:77) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.filter.AudioPipeline.process(AudioPipeline.java:33) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.common.OpusPacketRouter.passDownstream(OpusPacketRouter.java:159) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.common.OpusPacketRouter.process(OpusPacketRouter.java:94) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaOpusTrackConsumer.consume(MatroskaOpusTrackConsumer.java:47) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaStreamingFile.processFrameInBlock(MatroskaStreamingFile.java:372) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaStreamingFile.parseClusterSimpleBlock(MatroskaStreamingFile.java:336) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaStreamingFile.parseNextCluster(MatroskaStreamingFile.java:321) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaStreamingFile.provideFrames(MatroskaStreamingFile.java:297) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaAudioTrack.lambda$process$0(MatroskaAudioTrack.java:39) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.track.playback.LocalAudioTrackExecutor.executeProcessingLoop(LocalAudioTrackExecutor.java:257) ~[lavaplayer-1.3.17.jar!/:na]
+	... 9 common frames omitted
+
+2019-08-29 14:48:15.220  INFO 7800 --- [XNIO-2 task-24] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:5459
+2019-08-29 14:48:15.336  INFO 7800 --- [XNIO-2 task-24] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2019-08-29 14:48:15.392  INFO 7800 --- [XNIO-2 task-24] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:5459
+2019-08-29 14:49:04.644  INFO 7800 --- [XNIO-2 task-1] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2019-08-29 14:49:04.651 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.p.DefaultAudioPlayerManager      : Error in loading item https://www.youtube.com/watch?v=KdIaui-GgP8&list=RDQMpTJef94ZqhY&start_radio=1,https://www.youtube.com/playlist?list=PLX3_d1K7kSM8RKixNdHPoOH9qTCrNh9oo,https://www.youtube.com/playlist?list=PLX3_d1K7kSM8RKixNdHPoOH9qTCrNh9oo,https://www.youtube.com/playlist?list=PL5h7VzCItf3SWJxx17xQ8ojYMdllqbfNK,https://www.youtube.com/watch?v=KWOmboz-PkU&list=PLX3_d1K7kSM8RKixNdHPoOH9qTCrNh9oo&index=4&t=0s
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Something went wrong when looking up the track
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.dispatchItemLoadFailure(DefaultAudioPlayerManager.java:237) [lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$createItemLoader$0(DefaultAudioPlayerManager.java:226) [lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.IllegalStateException: Duplicate key list (attempted merging values RDQMpTJef94ZqhY and PLX3_d1K7kSM8RKixNdHPoOH9qTCrNh9oo)
+	at java.base/java.util.stream.Collectors.duplicateKeyException(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$3ReducingSink.accept(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(Unknown Source) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(Unknown Source) ~[na:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.getUrlInfo(YoutubeAudioSourceManager.java:551) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadFromMainDomain(YoutubeAudioSourceManager.java:238) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadNonSearch(YoutubeAudioSourceManager.java:314) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItemOnce(YoutubeAudioSourceManager.java:189) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItem(YoutubeAudioSourceManager.java:128) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItemOnce(DefaultAudioPlayerManager.java:437) [lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItem(DefaultAudioPlayerManager.java:419) [lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$createItemLoader$0(DefaultAudioPlayerManager.java:218) [lavaplayer-1.3.17.jar!/:na]
+	... 4 common frames omitted
+
+2019-08-29 14:49:04.652 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Load failed
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Something went wrong when looking up the track
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.dispatchItemLoadFailure(DefaultAudioPlayerManager.java:237) [lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$createItemLoader$0(DefaultAudioPlayerManager.java:226) [lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.IllegalStateException: Duplicate key list (attempted merging values RDQMpTJef94ZqhY and PLX3_d1K7kSM8RKixNdHPoOH9qTCrNh9oo)
+	at java.base/java.util.stream.Collectors.duplicateKeyException(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$3ReducingSink.accept(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(Unknown Source) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(Unknown Source) ~[na:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.getUrlInfo(YoutubeAudioSourceManager.java:551) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadFromMainDomain(YoutubeAudioSourceManager.java:238) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadNonSearch(YoutubeAudioSourceManager.java:314) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItemOnce(YoutubeAudioSourceManager.java:189) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItem(YoutubeAudioSourceManager.java:128) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItemOnce(DefaultAudioPlayerManager.java:437) [lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItem(DefaultAudioPlayerManager.java:419) [lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$createItemLoader$0(DefaultAudioPlayerManager.java:218) [lavaplayer-1.3.17.jar!/:na]
+	... 4 common frames omitted
+
+2019-08-29 14:49:36.280  INFO 7800 --- [XNIO-2 task-3] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2019-08-29 14:49:36.908 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Load failed
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: The playlist is private.
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.buildPlaylist(YoutubeAudioSourceManager.java:465) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadPlaylistWithId(YoutubeAudioSourceManager.java:451) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadFromMainDomain(YoutubeAudioSourceManager.java:250) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadNonSearch(YoutubeAudioSourceManager.java:314) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItemOnce(YoutubeAudioSourceManager.java:189) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItem(YoutubeAudioSourceManager.java:128) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItemOnce(DefaultAudioPlayerManager.java:437) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItem(DefaultAudioPlayerManager.java:419) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$createItemLoader$0(DefaultAudioPlayerManager.java:218) ~[lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+
+2019-08-29 15:16:25.752  INFO 7800 --- [XNIO-2 task-5] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2019-08-29 15:16:26.330  INFO 7800 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Eletronica
+2019-08-29 15:16:27.740  INFO 7800 --- [XNIO-2 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"615430368866205697","track":"QAAAvwIAS0NhcnRvb24gLSBXaHkgV2UgTG9zZSAoZmVhdC4gQ29sZW1hbiBUcmFwcCkgfCAoTEVUUkEpIFNVQlRJVFVMT1MgLSBFU1BBw5FPTAAaTm9Db3B5cmlnaHRTb3VuZHMgRVNQQcORT0wAAAAAAAND8AALUUNvRlNIMWsyZWcAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1RQ29GU0gxazJlZwAHeW91dHViZQAAAAAAAAAA"}
+2019-08-29 15:16:27.769  INFO 7800 --- [XNIO-2 I/O-2] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"615430368866205697","volume":25}
+2019-08-29 15:16:28.003  INFO 7800 --- [XNIO-2 I/O-2] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"615430368866205697","sessionId":"53a02d0b5d29dc61f062984763638c3d","event":{"token":"308913add42baaad","guild_id":"615430368866205697","endpoint":"brazil711.discord.gg:80"}}
+2019-08-29 15:16:49.366  INFO 7800 --- [XNIO-2 task-7] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2019-08-29 15:16:49.368 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.p.DefaultAudioPlayerManager      : Error in loading item https://www.youtube.com/watch?v=KdIaui-GgP8&list=RDQMpTJef94ZqhY&start_radio=1,https://www.youtube.com/playlist?list=PLX3_d1K7kSM8RKixNdHPoOH9qTCrNh9oo,https://www.youtube.com/playlist?list=PLX3_d1K7kSM8RKixNdHPoOH9qTCrNh9oo,https://www.youtube.com/playlist?list=PL5h7VzCItf3SWJxx17xQ8ojYMdllqbfNK,https://www.youtube.com/watch?v=KWOmboz-PkU&list=PLX3_d1K7kSM8RKixNdHPoOH9qTCrNh9oo&index=4&t=0s,https://www.youtube.com/playlist?list=PL5h7VzCItf3SWJxx17xQ8ojYMdllqbfNK
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Something went wrong when looking up the track
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.dispatchItemLoadFailure(DefaultAudioPlayerManager.java:237) [lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$createItemLoader$0(DefaultAudioPlayerManager.java:226) [lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.IllegalStateException: Duplicate key list (attempted merging values RDQMpTJef94ZqhY and PLX3_d1K7kSM8RKixNdHPoOH9qTCrNh9oo)
+	at java.base/java.util.stream.Collectors.duplicateKeyException(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$3ReducingSink.accept(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(Unknown Source) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(Unknown Source) ~[na:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.getUrlInfo(YoutubeAudioSourceManager.java:551) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadFromMainDomain(YoutubeAudioSourceManager.java:238) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadNonSearch(YoutubeAudioSourceManager.java:314) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItemOnce(YoutubeAudioSourceManager.java:189) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItem(YoutubeAudioSourceManager.java:128) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItemOnce(DefaultAudioPlayerManager.java:437) [lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItem(DefaultAudioPlayerManager.java:419) [lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$createItemLoader$0(DefaultAudioPlayerManager.java:218) [lavaplayer-1.3.17.jar!/:na]
+	... 4 common frames omitted
+
+2019-08-29 15:16:49.369 ERROR 7800 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Load failed
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Something went wrong when looking up the track
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:43) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.dispatchItemLoadFailure(DefaultAudioPlayerManager.java:237) [lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$createItemLoader$0(DefaultAudioPlayerManager.java:226) [lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.IllegalStateException: Duplicate key list (attempted merging values RDQMpTJef94ZqhY and PLX3_d1K7kSM8RKixNdHPoOH9qTCrNh9oo)
+	at java.base/java.util.stream.Collectors.duplicateKeyException(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$3ReducingSink.accept(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(Unknown Source) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(Unknown Source) ~[na:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.getUrlInfo(YoutubeAudioSourceManager.java:551) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadFromMainDomain(YoutubeAudioSourceManager.java:238) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadNonSearch(YoutubeAudioSourceManager.java:314) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItemOnce(YoutubeAudioSourceManager.java:189) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioSourceManager.loadItem(YoutubeAudioSourceManager.java:128) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItemOnce(DefaultAudioPlayerManager.java:437) [lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.checkSourcesForItem(DefaultAudioPlayerManager.java:419) [lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$createItemLoader$0(DefaultAudioPlayerManager.java:218) [lavaplayer-1.3.17.jar!/:na]
+	... 4 common frames omitted
+
+2019-08-29 15:20:01.361  INFO 7800 --- [XNIO-2 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"615430368866205697","track":"QAAAigIAH1ByaXNtbyAtIFN0cm9uZ2VyIFtOQ1MgUmVsZWFzZV0AEU5vQ29weXJpZ2h0U291bmRzAAAAAAADQAgAC0lJd2lNNzc3T3pRAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9SUl3aU03NzdPelEAB3lvdXR1YmUAAAAAAAAAAA=="}
+2019-08-29 15:20:01.424  INFO 7800 --- [XNIO-2 I/O-2] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"615430368866205697","volume":25}
+2019-08-29 15:20:13.103  INFO 7800 --- [XNIO-2 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:5459 -- CloseStatus[code=1006, reason=]
+2019-08-29 15:20:13.164  INFO 7800 --- [XNIO-2 I/O-2] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2019-08-29 15:20:13.193  INFO 7800 --- [XNIO-2 I/O-2] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2019-08-29 15:20:13.196  WARN 7800 --- [lava-daemon-pool-playback-37-thread-1] c.s.d.l.t.p.LocalAudioTrackExecutor      : Suspicious exception for playback of IIwiM777OzQ
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: The track was unexpectedly terminated.
+	at com.sedmelluq.discord.lavaplayer.track.playback.LocalAudioTrackExecutor.handlePlaybackInterrupt(LocalAudioTrackExecutor.java:323) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.track.playback.LocalAudioTrackExecutor.executeProcessingLoop(LocalAudioTrackExecutor.java:267) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaAudioTrack.process(MatroskaAudioTrack.java:38) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.track.DelegatedAudioTrack.processDelegate(DelegatedAudioTrack.java:27) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioTrack.processStatic(YoutubeAudioTrack.java:77) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioTrack.process(YoutubeAudioTrack.java:69) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.track.playback.LocalAudioTrackExecutor.execute(LocalAudioTrackExecutor.java:90) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$executeTrack$1(DefaultAudioPlayerManager.java:349) [lavaplayer-1.3.17.jar!/:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ArrayBlockingQueue.put(Unknown Source) ~[na:na]
+	at com.sedmelluq.discord.lavaplayer.track.playback.AllocatingAudioFrameBuffer.consume(AllocatingAudioFrameBuffer.java:179) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.filter.BufferingPostProcessor.process(BufferingPostProcessor.java:41) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.filter.FinalPcmAudioFilter.dispatch(FinalPcmAudioFilter.java:158) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.filter.FinalPcmAudioFilter.process(FinalPcmAudioFilter.java:130) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.filter.UserProvidedAudioFilters.process(UserProvidedAudioFilters.java:77) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.filter.AudioPipeline.process(AudioPipeline.java:33) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.common.OpusPacketRouter.passDownstream(OpusPacketRouter.java:159) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.common.OpusPacketRouter.process(OpusPacketRouter.java:94) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaOpusTrackConsumer.consume(MatroskaOpusTrackConsumer.java:47) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaStreamingFile.processFrameInBlock(MatroskaStreamingFile.java:372) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaStreamingFile.parseClusterSimpleBlock(MatroskaStreamingFile.java:336) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaStreamingFile.parseNextCluster(MatroskaStreamingFile.java:321) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaStreamingFile.provideFrames(MatroskaStreamingFile.java:297) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaAudioTrack.lambda$process$0(MatroskaAudioTrack.java:39) ~[lavaplayer-1.3.17.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.track.playback.LocalAudioTrackExecutor.executeProcessingLoop(LocalAudioTrackExecutor.java:257) ~[lavaplayer-1.3.17.jar!/:na]
+	... 9 common frames omitted
+
+2019-08-29 15:25:37.356  INFO 7800 --- [XNIO-2 task-9] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:7904
+2019-08-29 15:25:37.396  INFO 7800 --- [XNIO-2 task-9] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2019-08-29 15:25:37.404  INFO 7800 --- [XNIO-2 task-9] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:7904
+2019-08-29 15:38:44.498  WARN 7800 --- [lava-daemon-pool-manager-3-thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : Suspicious GC results for the last 2 minutes: [Bucket 0 = 0] [Bucket 20 = 0] [Bucket 50 = 0] [Bucket 200 = 1] [Bucket 500 = 0] [Bucket 2000 = 0] 
+2019-08-29 15:39:17.588  INFO 7800 --- [XNIO-2 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:7904 -- CloseStatus[code=1006, reason=]
+2019-08-29 15:39:17.589  INFO 7800 --- [XNIO-2 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2019-08-29 15:39:17.592  INFO 7800 --- [XNIO-2 I/O-2] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2019-08-29 15:40:06.041  INFO 7800 --- [XNIO-2 task-10] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:8838
+2019-08-29 15:40:06.075  INFO 7800 --- [XNIO-2 task-10] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2019-08-29 15:40:06.080  INFO 7800 --- [XNIO-2 task-10] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:8838
+2019-08-29 15:41:46.653  INFO 7800 --- [XNIO-2 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:8838 -- CloseStatus[code=1006, reason=]
+2019-08-29 15:41:46.665  INFO 7800 --- [XNIO-2 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2019-08-29 15:41:46.669  INFO 7800 --- [XNIO-2 I/O-3] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2019-08-29 15:42:01.163  INFO 7800 --- [XNIO-2 task-11] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:9006
+2019-08-29 15:42:01.169  INFO 7800 --- [XNIO-2 task-11] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2019-08-29 15:42:01.234  INFO 7800 --- [XNIO-2 task-11] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:9006
+2019-08-29 16:01:11.989  INFO 7800 --- [XNIO-2 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:9006 -- CloseStatus[code=1006, reason=]
+2019-08-29 16:01:11.989  INFO 7800 --- [XNIO-2 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2019-08-29 16:01:11.989  INFO 7800 --- [XNIO-2 I/O-3] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
